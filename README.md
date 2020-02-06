@@ -1,12 +1,12 @@
 # Image Upscaler
 
-A really, really simple image upscaler, intended for perfect integer upscaling (good for pixelart)
+A really, really simple image upscaler, intended for perfect integer upscaling (good for pixel art)
 
 I don't claim this to be good code (it's slow...), but it works, and that's all I need
 
 ## Getting Started
 
-* GCC Recommended (you're going to compile the source yourself)
+* GCC recommended (you're going to compile the source yourself)
 * might provide a built executable for Windows later
 
 ## Prerequisites
@@ -74,7 +74,7 @@ This project is licensed under the MIT license
 
 ## Other copyright notice
 
-I DO NOT OWN 8-BIT MARIO (OR ANY MARIO). THE IMAGE WAS ONLY PROVIDED FOR A DEMO, AND LITERALLY ANY NON-BROKEN IMAGE WOULD SUFFICE (pixelart works best though). PLEASE DON'T SUE ME, NINTENDO.
+I DO NOT OWN 8-BIT MARIO (OR ANY MARIO). THE IMAGE WAS ONLY PROVIDED FOR A DEMO, AND LITERALLY ANY NON-BROKEN IMAGE WOULD SUFFICE (pixel art works best though). PLEASE DON'T SUE ME, NINTENDO.
 
 ## Acknowledgments
 
