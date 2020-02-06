@@ -51,7 +51,7 @@ Simply run `make` to get your executable, then run that when desired
 
 Running: `./upscaler`
 
-Outputs to the folder where the executable was run from. I haven't done much testing but I'm pretty sure the original image can be located anywhere.
+The executable outputs the upscaled image to the folder where the executable was run from. I haven't done much testing but I'm pretty sure the original image can be located anywhere.
 
 If you're on Windows or not using GCC, good luck
 
@@ -74,7 +74,7 @@ This project is licensed under the MIT license
 
 ## Other copyright notice
 
-I DO NOT OWN 8-BIT MARIO (OR ANY MARIO). THE IMAGE WAS ONLY PROVIDED FOR A DEMO, AND LITERALLY ANY NON-BROKEN IMAGE WOULD SUFFICE (pixel art works best though). PLEASE DON'T SUE ME, NINTENDO.
+I DO NOT OWN 8-BIT MARIO (OR ANY MARIO). THE IMAGE WAS ONLY PROVIDED FOR A DEMO, AND LITERALLY ANY NON-BROKEN IMAGE WOULD SUFFICE (pixelart works best though). PLEASE DON'T SUE ME, NINTENDO.
 
 ## Acknowledgments
 
