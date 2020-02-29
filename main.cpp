@@ -54,13 +54,12 @@ int main(int argc, char** argv){
 
 	if(scale == 1){
 		cout << "...why? (Image will still be created)" << endl;
-		return 0;
 	}
 
 	try{
 		Image original(filepath);
 
-		Image modified((Geometry)(std::to_string(scale*original.rows()) + "x" + std::to_string(scale*original.columns())), (Color)"transparent");
+		Image modified((Geometry)(std::to_string(scale*original.columns()) + "x" + std::to_string(scale*original.rows())), (Color)"transparent");
 
 		for(int x = 0; x < original.rows(); x++){ //main image
 			for(int y = 0; y < original.columns(); y++){
@@ -73,9 +72,10 @@ int main(int argc, char** argv){
 
 			}
 		}
+		//apparently box or point resizing filters do this, except faster...
 
 		//ugly upscaling
-		//original.resize(std::to_string(scale*original.rows()) + "x" + std::to_string(scale*original.columns()));
+		//original.resize(std::to_string(scale*original.columns()) + "x" + std::to_string(scale*original.rows()));
 
 		modified.write(modifiedName);
 
