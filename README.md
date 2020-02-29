@@ -79,4 +79,4 @@ I DO NOT OWN 8-BIT MARIO (OR ANY MARIO). THE IMAGE WAS ONLY PROVIDED FOR A DEMO,
 ## Acknowledgments
 
 * StackOverflow
-* helpful documentation (good job Magick++)
+* helpful documentation (good job, Magick++)
